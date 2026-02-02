@@ -1,8 +1,8 @@
 import { ethers, formatUnits } from 'ethers';
 import ScholarshipArtifact from '../contracts/ScholarshipManager.json'; 
 
-export const MANAGER_ADDRESS = "0x2805A02e88937833F857E344E0dA1f4997CdE1B9";
-export const TOKEN_ADDRESS = "0x6908767Ab5F8B357C7Aaf38Fb079a751779f34dC";
+export const MANAGER_ADDRESS = "0xD734547a85a695F76E3B34c8cc38A951474DAC59";
+export const TOKEN_ADDRESS = "0x6A83d94381AAAF4e14Fc8d3414463E1cF0A53d61";
 
 export const ERC20_ABI = [
   "function balanceOf(address owner) view returns (uint256)",
